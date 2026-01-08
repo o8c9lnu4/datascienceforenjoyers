@@ -38,11 +38,14 @@ ENV/
 *~
 .DS_Store
 
-# Data files (опционально - если не хотите загружать датасеты)
-# *.csv
-# *.pkl
-# *.npz
-# *.npy
+# Data files - не загружаем большие датасеты на GitHub
+files/dataset.csv
+files/dataset_cleaned.csv
+files/dataset_removed.csv
+*.csv
+*.pkl
+*.npz
+*.npy
 
 # Reports and visualizations (опционально)
 # files/reports/
